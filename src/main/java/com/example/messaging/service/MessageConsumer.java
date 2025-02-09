@@ -8,6 +8,6 @@ public class MessageConsumer {
 
     @RabbitListener(queues = "my-queue")
     public void receiveMessage(String message) {
-        System.out.println("Received message: " + message);
+        System.out.println("Received message on queue my-queue: " + message);
     }
 }
