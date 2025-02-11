@@ -1,6 +1,18 @@
 # Critical Order System project
+A critical order management system with advanced failure handling and notifications, leveraging RabbitMQ for asynchronous and resilient communication.
 
-- Documentation in progress
+## About the project
+The Critical Order System (COS) is a robust backend system for order management and critical notifications. It utilizes RabbitMQ to process orders asynchronously, ensuring scalability and reliability.
+
+The system implements a Dead Letter Queue (DLQ) mechanism to handle failures, along with Retry and Time-To-Live (TTL) strategies to prevent message loss. Additionally, it features Priority Queues to ensure that urgent orders are processed first.
+
+The main workflow includes:
+
+- Order creation via API.
+- Asynchronous processing of orders through RabbitMQ.
+- Critical notifications (SMS, Email, Push) based on order status.
+- Failure recovery mechanism using DLQ.
+- Intelligent retry handling to prevent order loss.
 
 ## Run project
 
