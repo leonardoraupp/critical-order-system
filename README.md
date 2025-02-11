@@ -1,4 +1,4 @@
-# Messaging application
+# Critical Order System project
 
 - Documentation in progress
 
