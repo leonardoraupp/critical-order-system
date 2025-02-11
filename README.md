@@ -1,4 +1,5 @@
-# Critical Order System project
+![Documentation Status](https://img.shields.io/badge/docs-in%20progress-yellow)
+# Critical Order System project 
 A critical order management system with advanced failure handling and notifications, leveraging RabbitMQ for asynchronous and resilient communication.
 
 ## About the project
